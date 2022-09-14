@@ -1,0 +1,14 @@
+form {
+  margin-bottom: 40px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 320px;
+}
+
+.Results {
+  text-align: left;
+}

@@ -1,10 +1,10 @@
 body {
   margin: 0 auto;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   background: #ebebeb;
+}
+
+.main-content {
+  max-width: 900px;
+  margin-top: 40px;
 }
