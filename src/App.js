@@ -7,7 +7,6 @@ function App() {
       <div className="container main-content">
         <header className="App-header">
           <h1>What's on your mind?</h1>
-          <p>Search the word you're thinkin of...</p>
         </header>
         <main>
           <Dictionary />
