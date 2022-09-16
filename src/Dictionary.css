@@ -20,7 +20,13 @@ input[type="search"] {
   text-align: center;
 }
 
-::placeholder {
+input[type="search"]:focus {
+  outline: none;
+  border-bottom: 4px dashed #f76b8a;
+  font-weight: 600;
+}
+
+input::placeholder {
   color: #66bfbf;
   text-align: center;
 }
