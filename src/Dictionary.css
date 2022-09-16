@@ -12,7 +12,7 @@ form {
 input[type="search"] {
   background: transparent;
   border: none;
-  border-bottom: 2px solid #66bfbf;
+  border-bottom: 4px solid #66bfbf;
   width: 420px;
   padding: 10px;
   color: #66bfbf;
