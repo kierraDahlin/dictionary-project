@@ -1,0 +1,24 @@
+svg {
+  fill: #66bfbf;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid #66bfbf;
+  border-radius: 40px;
+}
+
+.phonetic-results,
+.Phonetic {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  color: #66bfbf;
+}
+
+.phonetic-results h3 {
+  color: #66bfbf;
+}
+
+.Phonetic svg {
+  margin-right: 10px;
+}
