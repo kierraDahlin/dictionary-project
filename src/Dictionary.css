@@ -26,11 +26,6 @@ input[type="search"]:focus {
   font-weight: 600;
 }
 
-input::placeholder {
-  color: #66bfbf;
-  text-align: center;
-}
-
 .Results {
   text-align: left;
 }
