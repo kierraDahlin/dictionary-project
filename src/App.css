@@ -1,7 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0 auto;
   text-align: center;
-  background: #ebebeb;
+  /* background: #eaf6f6; */
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(243, 185, 209) 0%,
+    rgb(254, 215, 212) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: #4fa8a8;
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #f76b8a;
+}
+
+a {
+  color: #f76b8a;
+  text-decoration: none;
+}
+
+header span {
+  font-size: 50px;
 }
 
 .main-content {

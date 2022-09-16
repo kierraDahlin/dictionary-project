@@ -1,12 +1,28 @@
+.Dictionary section {
+  background: #ffffff;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
 form {
   margin-bottom: 40px;
 }
 
-input {
+input[type="search"] {
   background: transparent;
   border: none;
-  border-bottom: 2px solid black;
-  width: 320px;
+  border-bottom: 2px solid #66bfbf;
+  width: 420px;
+  padding: 10px;
+  color: #66bfbf;
+  font-size: 21px;
+  text-align: center;
+}
+
+::placeholder {
+  color: #66bfbf;
+  text-align: center;
 }
 
 .Results {
@@ -14,9 +30,26 @@ input {
 }
 
 svg {
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  border: 2px solid black;
+  fill: #66bfbf;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid #66bfbf;
   border-radius: 40px;
+}
+
+.phonetic-results,
+.Phonetic {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  color: #66bfbf;
+}
+
+.phonetic-results h3 {
+  color: #66bfbf;
+}
+
+.Phonetic svg {
+  margin-right: 10px;
 }
