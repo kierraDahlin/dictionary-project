@@ -10,7 +10,7 @@ function App() {
           <h1>What's on your mind?</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
           <small>
