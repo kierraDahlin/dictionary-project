@@ -12,11 +12,21 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
 
+  function handlePexelsResponse(response) {
+    console.log(response);
+  }
+
   function search() {
     // doc: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
 
     axios.get(apiUrl).then(handleResponse);
+
+    let pexelsApiKey =
+      "563492ad6f91700001000001aa8169eaaffd4b27a667eeec966a1eb3";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
 
     // we have search and handleSubmit seperate, so we can call the api without an event
   }
