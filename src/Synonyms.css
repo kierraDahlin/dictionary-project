@@ -1,0 +1,10 @@
+ul {
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  margin-right: 15px;
+  border: 1px solid #66bfbf;
+  padding: 8px;
+  border-radius: 20px;
+}
