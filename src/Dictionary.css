@@ -13,7 +13,7 @@ input[type="search"] {
   background: transparent;
   border: none;
   border-bottom: 4px solid #66bfbf;
-  width: 420px;
+  max-width: 420px;
   padding: 10px;
   color: #66bfbf;
   font-size: 21px;
